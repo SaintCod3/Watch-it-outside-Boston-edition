@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- My Css for the full page Header -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/9db8c570e0.js" crossorigin="anonymous"></script>
+  <title>Watch it outside Boston edition</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="resources/logo.png" alt="logo" style="width:40px;"></a>
+    <a class="navbar-brand d-none d-sm-block" href="#">Watch it outside events Co</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a href="#tickets" class="btn btn-primary fas fa-ticket-alt p-3" data-toggle="modal" data-target="#ticketsModal"> Get your ticket(s)!</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="fullPage">
+    <div class="fullPageOverlay">
+      <div class="container h-100 text-light">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 id="home" class="display-4 headerTitle mb-4 offset-sticky">Brooklyn Outdoor Film Festival</h1>
+            <h3 class="mb-4"> August 5th to 8th</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- News section -->
+  <div class="bg-dark text-light py-5">
+    <div class="container">
+      <h1 class="mb-4 text-center offset-sticky" id="news">Latest News</h1>
+      <div class="list-group mb-4">
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">We have a big surprise for you!</h5>
+            <small>3 days ago</small>
+          </div>
+          <p class="mb-1">Bruce Campbell will join us on our opening day for a A.M.A(Ask Me Anything) session from 4pm to 5pm</p>
+          <small class="text-muted">Please note that even if this is an A.M.A, verbal abuse will not be tolerated </small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Announcement regarding the movies selected for this year</h5>
+            <small>3 days ago</small>
+          </div>
+          <p class="mb-1">We have added the Movies selected for this year after the pool that was shared to you via our Social Media!</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Important announcement</h5>
+            <small>4 days ago</small>
+          </div>
+          <p class="mb-1">Due to the venue’s capacity of 1,500 people, we have limited the amount of tickets to 1,500.</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Lights, camera, action!</h5>
+            <small>5 days ago</small>
+          </div>
+          <p class="mb-1">We are glad to announce that as of today, you will be able to book your ticket(s)!</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Schedule -->
+  <div class="container py-5">
+    <h1 id="schedule" class="text-center mt-4 mb-4 offset-sticky">Festival Program</h1>
+    <hr>
+    <ul class="nav nav-tabs justify-content-center mb-4">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#day1">August 5th</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#day2">August 6th</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#day3">August 7th</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#day4">August 8th</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div id="day1" class="tab-pane active">
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>The Evil Dead <a href="https://www.youtube.com/watch?v=NL6mioAlpJk" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 5 pm - 6 pm</p>
+            <p class="text-justify">Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie2.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Evil Dead 2: Dead By Dawn <a href="https://www.youtube.com/watch?v=6lM3NPeEG24" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 6 pm - 8 pm</p>
+            <p class="text-justify">The lone survivor of an onslaught of flesh-possessing spirits holes up in a cabin with a group of strangers while the demons continue their attack.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie3.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Army of Darkness <a href="https://www.youtube.com/watch?v=4vvJCg2JsIc" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 8 pm - 12 pm</p>
+            <p class="text-justify">A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.</p>
+          </div>
+        </div>
+      </div>
+      <div id="day2" class="tab-pane fade">
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie4.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Battle Royale <a href="https://www.youtube.com/watch?v=N0p1t-dC7Ko" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 5 pm - 6 pm</p>
+            <p class="text-justify">In the future, the Japanese government captures a class of ninth-grade students and forces them to kill each other under the revolutionary "Battle Royale" act.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie5.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Gantz <a href="https://www.youtube.com/watch?v=GuuHv1rZMhE" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 6 pm - 8 pm</p>
+            <p class="text-justify">After trying to rescue a man on the subway tracks, two teens wake up in a room dominated by a mysterious black sphere that sends them to hunt down and kill aliens hiding on Earth.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie6.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Detroit Metal City <a href="https://www.youtube.com/watch?v=myeIP0Z1_-U" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 8 pm - 12 pm</p>
+            <p class="text-justify">Soichi Negishi moved to Tokyo to chase his dream of becoming a musician playing stylish, Swedish-style pop. Instead, he finds himself leading the death metal band Detroit Metal City, or DMC, as the costumed and
+              grotesquely made-up "demon emperor" Johannes Krauser II. Although he hates the role and the things he has to do as a member of the band, he has a definite talent for it. Adapted from the hit Japanese comic book by Kiminori Wakasugi,
+              the movie follows Negishi's antics as he tries to reconcile the two very different sides of his life and find out what it really means to achieve his dream.</p>
+          </div>
+        </div>
+      </div>
+      <div id="day3" class="tab-pane fade">
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie7.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>The Great Mouse Detective <a href="https://www.youtube.com/watch?v=4zTZo4wwyd4" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 5 pm - 6 pm</p>
+            <p class="text-justify">Basil, the rodent Sherlock Holmes, investigates the kidnapping of a toy-maker and uncovers its link to his arch-enemy, Professor Ratigan.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie8.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Coco <a href="https://www.youtube.com/watch?v=zNCz4mQzfEI" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 6 pm - 8 pm</p>
+            <p class="text-justify">Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie9.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Winx Club 3D: Magical Adventure <a href="https://www.youtube.com/watch?v=QVzSaPGbVMA" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 8 pm - 12 pm</p>
+            <p class="text-justify">The King and Queen of Sparks and Bloom's biological parents, King Oritel and Queen Marion, might still be alive. Bloom and the Winx give the search for Bloom's family, one last shot.</p>
+          </div>
+        </div>
+      </div>
+      <div id="day4" class="tab-pane fade">
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie10.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Stardust <a href="https://www.youtube.com/watch?v=VfYBKDyF-Dk" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 5 pm - 6 pm</p>
+            <p class="text-justify">In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie11.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Fear and Loathing in Las Vegas <a href="https://www.youtube.com/watch?v=8m662obIvhY" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 6 pm - 8 pm</p>
+            <p class="text-justify">An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades.</p>
+          </div>
+        </div>
+        <div class="row mb-3 pb-2">
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <img src="resources/movies/movie12.jpg" class="rounded img-fluid">
+          </div>
+          <div class="col-12 col-md-5 col-lg-8">
+            <h5>Deuce Bigalow: Male Gigolo <a href="https://www.youtube.com/watch?v=Zpzb2hIp8co" class="fab fa-youtube badge badge-light" target="_blank"> Trailer</a></h5>
+            <p class="far fa-clock"> 8 pm - 12 pm</p>
+            <p class="text-justify">An average aquarium cleaner house-sits for a gigolo, only to be forced to become one himself.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- About us! -->
+  <div class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 mb-4">
+          <img src="resources/bff.jpg" class="rounded img-fluid">
+        </div>
+        <div class="col-12 col-md-8 col-lg-8">
+          <h1 id="about" class="mb-4 offset-sticky">About Us</h1>
+          <h5 class="mb-4">Brooklyn Film Festival</h5>
+          <p class="text-justify">Brooklyn Film Festival (BFF), is an International, competitive festival. BFF’s mission is to provide a public forum in Brooklyn in order to advance public interest in films and the independent production of films. To
+            draw worldwide attention to Brooklyn as a center for cinema. To encourage the rights of all Brooklyn residents to access and experience the power of independent filmmaking, and to promote artistic excellence and the creative freedom of
+            artists without censure. BFF, inc. is a 501 (c)(3) not-for-profit organization.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tickets -->
+  <div class="modal fade" id="ticketsModal" tabindex="-1" role="dialog" aria-labelledby="ticketsModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> Get your ticket(s)!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="my-1 mr-2" for="tNumber">Ticket(s)</label>
+              <select class="custom-select my-1 mr-sm-2">
+                <option selected>Choose...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <small class="text-muted">*Only 5 per person</small>
+              <div class="form-group">
+                <label class="my-1 mr-2" for="tNumber">Full name</label>
+                <input type="text" class="form-control" placeholder="Enter your full name...">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="tNumber">Phone Number</label>
+                <input type="text" class="form-control" placeholder="Enter your phone number">
+              </div>
+              <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                <label class="custom-control-label mb-2" for="customControlInline">Subscribe to receive our newsletter</label>
+              </div>
+              <small class="text-muted">Due to the venue’s capacity, we have 1,500 tickets availables</small>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-info my-1" data-dismiss="modal">Book your ticket(s)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact us" class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4  text-left">
+          <p id="contact">Contact us</p>
+          <p class="fas fa-envelope"> Email: contact@wioe.co</p>
+          <p class="fas fa-phone-square-alt"> Phone: +1 98555555555</p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <p>With the collaboration of:</p>
+          <ul class="list-unstyled">
+            <li><a href="https://www.boston.gov/news" class="text-white" target="_blank">City of Brooklyn</a></li>
+            <li><a href="https://www.brooklynbridgepark.org" class="text-white" target="_blank">Brooklyn Bridge Park</a></li>
+            <li><a href="https://www.boston.gov/parks/public-garden" class="text-white" target="_blank">Public Garden</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 text-rigth">
+          <p>Follow us at:</p>
+          <a class="nav-link fab fa-twitter-square text-white" href="#"> Twitter</a>
+          <a class="nav-link fab fa-facebook-square text-white" href="#"> Facebook</a>
+          <a class="nav-link fab fa-instagram text-white" href="#"> Instagram</a>
+        </div>
+      </div>
+      <small>Copyright &copy; Watch it outside events Co</small>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
